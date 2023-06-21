@@ -4,19 +4,29 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Ice Maker",
   description: "doc for ice",
+  head: [
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }
+      // would render:
+      //
+      // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/markdown-examples' }
+      { text: 'Vue', link: '/vue/vue-pdf' }
     ],
 
     sidebar: [
       {
-        text: 'Docs',
+        text: 'Vue',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'vue-pdf', link: '/vue/vue-pdf' }
         ]
       }
     ],
