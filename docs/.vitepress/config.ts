@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Ice Maker",
   description: "doc for ice",
+  base: '/ice-space/',
   head: [
     [
       'link',
