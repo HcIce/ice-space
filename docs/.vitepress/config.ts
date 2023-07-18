@@ -18,18 +18,25 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Vue', link: '/vue/vue-pdf' }
+      { text: 'Week', link: '/vue/vue-pdf' }
     ],
 
     sidebar: [
       {
-        text: 'Vue',
+        text: 'Tour',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'vue-pdf', link: '/vue/vue-pdf' }
         ]
-      }
+      },
+      {
+        text: 'Week',
+        items: [
+          { text: 'vue-pdf', link: '/vue/vue-pdf' },
+          { text: '20230714', link: '/week/20230714' },
+          { text: '20230721', link: '/week/20230721' },
+        ]
+      },
     ],
 
     socialLinks: [
