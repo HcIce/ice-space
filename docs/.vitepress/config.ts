@@ -23,18 +23,30 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Tour',
+        text: 'Example',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
         ]
       },
       {
-        text: 'Week',
+        text: 'Tools',
+        items: [
+          { text: '代码开发规范', link: '/tools/prettier' },
+        ]
+      },
+      {
+        text: 'Vue',
         items: [
           { text: 'vue-pdf', link: '/vue/vue-pdf' },
+        ]
+      },
+      {
+        text: 'Week',
+        items: [
           { text: '20230714', link: '/week/20230714' },
           { text: '20230721', link: '/week/20230721' },
+          { text: '20230728', link: '/week/20230728' },
         ]
       },
     ],
