@@ -37,3 +37,9 @@ VSCode安装 ESLint 扩展
 2、老页面不允许进行手动 Format 操作
 
 3、`.vue` 中的 style 必须设置scoped属性
+
+## 小程序代码编写规范（待补充...）
+
+1、页面统一使用 ZpPage 来注册，组件统一使用 ZpComponent 来注册
+
+2、全局数据管理和消息订阅使用 App.bus

@@ -42,6 +42,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Miniprogram',
+        items: [
+          { text: '小程序开发tip', link: '/miniprogram/小程序开发tip' },
+        ]
+      },
+      {
         text: 'Week',
         items: [
           { text: '20230714', link: '/week/20230714' },
