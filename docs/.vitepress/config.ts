@@ -53,6 +53,7 @@ export default defineConfig({
           { text: '20230714', link: '/week/20230714' },
           { text: '20230721', link: '/week/20230721' },
           { text: '20230728', link: '/week/20230728' },
+          { text: '20230811', link: '/week/20230811' },
         ]
       },
     ],
