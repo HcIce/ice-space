@@ -42,9 +42,27 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Javascript',
+        items: [
+          { text: 'pdf水印', link: '/js/pdf水印' },
+        ]
+      },
+      {
+        text: 'CSS',
+        items: [
+          { text: '背景色问题', link: '/css/背景色问题' },
+        ]
+      },
+      {
         text: 'Miniprogram',
         items: [
           { text: '小程序开发tip', link: '/miniprogram/小程序开发tip' },
+        ]
+      },
+      {
+        text: 'Flutter',
+        items: [
+          { text: '学习笔记', link: '/flutter/note_01' },
         ]
       },
       {
