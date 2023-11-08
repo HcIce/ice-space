@@ -42,6 +42,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Vite',
+        items: [
+          { text: 'index.html注入动态信息', link: '/vite/index.html注入动态信息' },
+        ]
+      },
+      {
         text: 'Javascript',
         items: [
           { text: 'pdf水印', link: '/js/pdf水印' },
