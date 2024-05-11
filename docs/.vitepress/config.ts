@@ -60,6 +60,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'NPM',
+        items: [
+          { text: '离线安装node-sass', link: '/npm/离线安装node-sass' },
+        ]
+      },
+      {
         text: 'Miniprogram',
         items: [
           { text: '小程序开发tip', link: '/miniprogram/小程序开发tip' },
