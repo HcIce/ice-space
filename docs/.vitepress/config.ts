@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Code', link: '/code/vue/vue-pdf' },
-      { text: 'Engineering', link: '/engineering/本地开发更新' }
+      // { text: 'Engineering', link: '/engineering/本地开发更新' }
     ],
 
     sidebar: {
@@ -92,9 +92,9 @@ export default defineConfig({
         ],
       '/engineering/': [
         {
-          text: 'Example',
+          text: '工程化',
           items: [
-            { text: '本地开发更新', link: '/engineering/本地开发更新' },
+            // { text: '本地开发更新', link: '/engineering/本地开发更新' },
           ]
         },
       ]
